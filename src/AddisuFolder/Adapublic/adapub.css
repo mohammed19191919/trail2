@@ -1,0 +1,97 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.body{
+    background-color: white;
+}
+.pub-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: white;
+    margin: 10px 5%;
+}
+.dispalaycite{
+    height: 100px;
+    width: 400px;
+    border: 1px black solid;
+    z-index: 1;
+    padding: 10px;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.firstpaper{
+  padding: 10px;
+}
+.firstpaper a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding-bottom: 5px;
+    font-style: normal;
+}
+.firstpaper a:active,
+.firstpaper a:focus,
+.firstpaper a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+    color: blue;
+}
+.IoMdDocumen{
+    margin-right: 3px;
+    color: rebeccapurple;
+}
+.pubhead{
+    background: linear-gradient(-45deg,  white, gray, black);
+    margin-right: 10px;
+    width: 50%;
+}
+.pubhead h1{
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20%;
+    color: red;
+}
+button{
+    height: 20px;
+    width: 60px;
+    border: none;
+    margin-left: 20px;
+    outline: none;
+   background-color: white;
+    color: green;
+    text-align: center;
+    border: 1px green solid;
+    border-radius: 5px;
+
+}
+button:hover{
+    color: white;
+    background-color: green;
+    transform: scale3d(1.2);
+    transition: 2s all ease-in-out;
+}
+.buttuns button a{
+    color: green;
+}
+.buttuns button a:hover{
+    color: white;
+}
+.buttuns{
+    margin-top: 6px;
+}
+.papers{
+    border-radius: 20px;
+    box-shadow: 20px 20px -80 -80px solid green ;
+}
+.tele-link{
+    width:100%;
+    height:70%;
+    background-color:white;
+    margin-left: 20%;
+}
+.linkidin1, .telegram1{
+    height:50px;
+    width:50px;
+    color: rgb(0, 119, 255);
+    padding-left:25px;
+}

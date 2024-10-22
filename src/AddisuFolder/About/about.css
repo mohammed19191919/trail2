@@ -1,0 +1,111 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutme-cont{
+    height: 50px;
+    font-size: large;
+    color: rgba(255, 0, 0, 0.274);
+    margin-left: 200px;
+}
+.para-ima{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.imag-cont img{
+  height: 250px;
+  width: 200px;
+}
+.educations{
+    background-color: rgba(128, 128, 128, 0.753);
+    margin: 20px 20px 0px 20px;
+    padding: 20px 200px 20px 70px;
+
+}
+.edu-flex1, .edu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.years{
+    padding-top: 40px;
+}
+.skills{
+    background: linear-gradient(-45deg, blue, yellow, green);
+    margin-top:0px
+}
+.allskils{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skillh1{
+    margin-top: 30px;
+    padding-top:30px;
+}
+.skills .skillh1 h1{
+    margin-left:200px;
+    background-color:white;
+    margin-right: 200px;
+    border-radius: 50px;
+    height: 60px;
+    padding-top: 15px;
+    padding-left: 20px;
+    
+}
+.programmining{
+    background-color: white;
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    box-shadow: 0 0 5px 1px gray;
+}
+.programmining ul li{
+    padding-top: 5px;
+}
+.programmining h2{
+    padding-left: 50px;
+}
+.tools{
+    background-color: white;
+    height: auto;
+    width: 260px; 
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px blue;
+}
+.tools ul li{
+    padding-top: 10px; 
+    font-size: 16px;
+}
+.tools h2{
+    padding-left: 50px;
+}
+.certificats{
+    background-color: white;
+    height: auto;
+    width: 300px; 
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px red;
+}
+.certificats a{
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+}
+.certificats ul li{
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.tele-link{
+    width:100%;
+    height:70%;
+    background-color:white;
+    margin-left: 20%;
+}
+.linkidin1, .telegram1{
+    height:50px;
+    width:50px;
+    color: rgb(0, 119, 255);
+    padding-left:25px;
+}

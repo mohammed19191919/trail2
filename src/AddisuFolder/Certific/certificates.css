@@ -1,0 +1,101 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.allcertificate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background:linear-gradient(45deg, white, gray, wheat);
+    height: inherit;
+    position: relative;
+}
+.subcertificate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.certificate1 img{
+    width: 150px;
+    height: 220px;
+    padding: 5px;
+    background-color: white;
+}
+.certificate1 img:hover{
+    transform: scale(3); 
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    
+}
+.certificate2 img{
+    width:250px;
+    height: 220px;
+    display: flex;
+    padding: 5px;
+    background-color: white; 
+}
+.certificate2 img:hover{
+    transform: scale(2); 
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+.certificate2 img:not(:hover){
+    filter: blur(4px);
+   
+}
+.certificate1 img:not(:hover){
+    filter: blur(4px);
+   
+}
+.certificate1 p{
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.certificate2 p{
+    font-size: 20px;
+    padding: 1px;
+    border: 1px solid green;
+    overflow: hidden;
+}
+.certificate1{
+    width:250px;
+    height: 220px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.certificate2{
+    width:250px;
+    height: 220px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.links{
+    margin-top: 15px;
+}
+.tele-link{
+    width:100%;
+    height:auto;
+    background-color:white;
+    margin-left: 20%;
+}
+.linkidin1, .telegram1{
+    height:50px;
+    width:50px;
+    color: rgb(0, 119, 255);
+    padding-left:25px;
+}

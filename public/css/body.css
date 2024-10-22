@@ -1,0 +1,111 @@
+.shortmessege{
+    background-color: white;
+    text-align: center;
+    align-items: center; 
+}
+.shortmessegep{
+    color: black;
+}
+/* body one */
+.body1{
+ background-image: url(../images/hero_iphone16pro_preorder__bw14fpo72niu_large.jpg);
+ min-height: 550px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ margin-top: -30px;
+
+}
+.body1 h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 20px;
+    margin-bottom: 0;
+
+}
+.body1 h3{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.bottom-body1{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 35%;
+
+}
+.bottom-body1 p{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+.button1{
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-left: 20px;
+}
+.button2{
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    color: blue;
+    border: blue solid 2px;
+    outline: none;
+    font-size: 17px;
+    background-color: inherit;
+}
+.button2:hover{
+    background-color: blue;
+    color: white;
+}
+/* Body 2 */
+.body2{
+    background-image: url(../images/hero_iphone16_preorder__djo0elxwjbma_large.jpg);
+    min-height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -30px;
+}
+.body2 h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 20px;
+    margin-bottom: 0;
+
+}
+.body2 h3{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.bottom-body2{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    align-items: center;
+    margin-left: 35%;
+
+}
+.bottom-body2 p{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+

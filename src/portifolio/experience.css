@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.horizontal-line {
+    height: 1px; 
+    background-color: black; 
+    width: 90%; 
+    margin: 40px auto; 
+}
+.container-exp{
+    display: grid;
+    grid-template-rows: 4fr 2fr; 
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    height: 700px;
+}
+.last-gondar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #ecf0f17e;
+    width: 75%;
+    margin: auto;
+}
+.years-of-exp{
+    text-align: center;
+    margin-top: 20px;
+    color: rgba(255, 0, 0, 0.192);;
+}
+.my-experiances{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.image2{
+    height: 200px;
+    width: 250px;
+    margin-left: 0px;
+}
+.image1{
+    height: 200px;
+    width: 250px; 
+    margin-left: 23px;
+}
+.currunt{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #ecf0f17e;
+    width: 75%;
+    margin:auto;
+}
+.lists ol li{
+    padding-top: 10px;
+}
+.lists p{
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.192);
+    height: 30px;
+    width: 190px;
+    text-align: center;
+    padding-top: 7px;
+}
+.learning{
+    margin-right: 170px;
+}
+.learning p{
+    border-radius: 30px;
+    background-color: rgba(255, 0, 0, 0.192);
+    height: 30px;
+    width: 190px;
+    text-align: center;
+    padding-top: 7px;
+}

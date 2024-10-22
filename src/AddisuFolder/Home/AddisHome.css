@@ -1,0 +1,137 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin:auto;
+}
+.horizontalline{
+    height: 5px;
+    color: black;
+    width: 100%;
+}
+.name-head{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(128, 128, 128);
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+}
+.name-head .Unorderd-lists{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -350px;
+    margin-right: 40px;
+}
+.name-head .Unorderd-lists li{
+    list-style: none;
+}
+.appabout{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    font-size: 19px;
+}
+.appabout:hover,
+.appabout:focus{
+    color: white;
+    font-size: 1.5rem;
+}
+.start-about{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(128, 128, 128);
+    margin-top: 100px;
+}
+.myimage{
+    height: 320px;
+    width: 270px;
+    margin-left: 300px;
+    margin-top: -70px;
+
+}
+
+.horizontal-line{
+    height: 3px;
+    width:100%;
+    color: black;
+}
+.next-home-head{
+    padding-left: 50px;
+}
+.Start-about-all{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.empity{
+    height:100px;
+    width: 100%;
+    background:linear-gradient(45deg, green, yellow, red);
+    margin-top: 0px;
+
+}
+.links{
+  height: 100px;
+  width: 100%;
+  background-color: wheat;
+  text-align: center;
+}
+.Falinkidin1{
+    color: rgb(116, 163, 216);
+    height: 50px;
+    width: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.Fatelegram{
+    color: rgb(116, 163, 216);
+    height: 50px;
+    width: 40px;
+    padding-top: 20px;
+}
+.readmore{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: aqua;
+    color: blue;
+    font-size: 16px;
+}
+.readmore:hover,
+.readmore:focus{
+    color:white;
+    background-color: brown;
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
+}
+.pppp{
+    text-align:center;
+}
+.apphome{
+    text-decoration: none;
+    padding-top: 16px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: black;
+}
+.apphome:hover,
+.apphome:focus{
+    color: white;
+    font-size: 1.5rem;
+}
+.tele-link{
+    width:100%;
+    height:70%;
+    background-color:white;
+    margin-left: 20%;
+}
+.linkidin1, .telegram1{
+    height:50px;
+    width:50px;
+    color: rgb(0, 119, 255);
+    padding-left:25px;
+}

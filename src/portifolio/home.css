@@ -1,0 +1,116 @@
+
+body{
+    background-color: #ecf0f1e8;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 3fr; 
+    grid-template-areas: 
+      'name adress' 
+    ;
+    gap: 20px;
+    max-width: 90%;
+    margin: auto; 
+    margin-top: 100px;
+}
+.myimage img{
+    height: 600px;
+    width: 500px;
+}
+.my-names{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #ecf0f17e;
+    display: grid;
+    grid-template-rows: 4fr 2fr; 
+    gap: 20px;
+    grid-area: name;
+    word-spacing: normal;
+}
+.my-names p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+.my-names h1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+.myimage{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #ecf0f1e8; 
+} 
+.download-my-cv{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(122, 100, 100, 0.1);
+    padding: 40px;
+    background-color: #ecf0f1e8; 
+    width: inherit;
+    margin-top: 20px;
+    grid-area: download;
+    font-size: 25px;
+}
+.adress{
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(122, 100, 100, 0.1);
+    padding: 40px;
+    background-color: #ecf0f1e8; 
+    grid-area: adress; 
+}  
+.contactes2{
+    border-radius: 50%;
+    border: 1px solid red;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.192);
+    position: relative;
+    cursor: pointer;
+}
+.contactes3{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  background-color: rgba(255, 0, 0, 0.192);
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+}
+.download-my-cv button{
+    color: #C70039;
+    height: 40px;
+    width: 120px;
+    background-color: #ecf0f1f6;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow:  -1px -1px  4px 4px #bfc9ca;
+    margin-left: 10px;
+    background-color:#f2f3f4;
+    box-sizing: content-box;
+    cursor: pointer;
+     font-size: 16px;
+}
+.download-my-cv button:hover{
+    color: white;
+    background-color: #C70039;
+    box-shadow: none;
+}
+.download-my-cv button:focus{
+    background-color: green;
+    color: white;
+}
+.Mohammed{
+    color: #C70039;
+    transition: opacity 0.5s ease-in-out;
+}
+.IoMdDocument{
+    color: red;
+    height: 30px;
+    width: 40px;
+}
