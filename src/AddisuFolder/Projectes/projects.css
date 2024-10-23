@@ -1,0 +1,24 @@
+
+.alllinks{
+    text-align: center;
+    height: 200px;
+    width: inherit;
+    margin-top: 10px;
+    
+}
+.alllinks h2{
+    padding-top: 20px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.linkdinabout{
+    height: 50px;
+    width: 50px;
+    color: blue;
+}
+.horizontal-line{
+    height: 3px;
+}

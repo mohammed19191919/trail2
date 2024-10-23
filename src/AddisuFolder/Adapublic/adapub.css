@@ -4,12 +4,16 @@
 .body{
     background-color: white;
 }
+.pub-containerall{
+    margin: 40px 70px;
+}
 .pub-container{
     display: flex;
     justify-content: space-between;
     gap: 30px;
     background-color: white;
-    margin: 10px 5%;
+    margin: 20px 5%;
+    border: 0.4px black solid;
 }
 .dispalaycite{
     height: 100px;
@@ -83,15 +87,24 @@ button:hover{
     border-radius: 20px;
     box-shadow: 20px 20px -80 -80px solid green ;
 }
-.tele-link{
-    width:100%;
-    height:70%;
-    background-color:white;
-    margin-left: 20%;
+
+.alllinks{
+    text-align: center;
+    height: 200px;
+    width: inherit;
+    margin-top: 10px;
+    
 }
-.linkidin1, .telegram1{
-    height:50px;
-    width:50px;
-    color: rgb(0, 119, 255);
-    padding-left:25px;
+.alllinks h2{
+    padding-top: 20px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.linkdinabout{
+    height: 50px;
+    width: 50px;
+    color: blue;
 }

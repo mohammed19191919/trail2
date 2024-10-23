@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./adapub.css";
 import { IoMdDocument } from "react-icons/io";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaTelegram } from "react-icons/fa";
-import { FaOrcid } from "react-icons/fa6";
-import { MdOutlineEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { SiOrcid } from "react-icons/si";
 
 function Adapub(){
      
@@ -122,17 +121,15 @@ function Adapub(){
             
                 </div>
                 </div>
-                <div className="links">
-                <div classname="tele-link">
-            <h2>Addisu Afrasa Tegegne</h2>
-             <a href="www.linkedin.com/in/addisu-afrassa" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkidin1"/> </a>
-              <a href="https://orcid.org/0000-0002-3855-7213" target="_blank" rel="noopener noreferrer"> < FaOrcid className="telegram1" /> </a>
-              <a href="mailto:addisuafrasa4648@gmail.com" target="_blank" rel="noopener noreferrer"> < MdOutlineEmail className="telegram1" /> </a>
-              </div>
-              <div className ="footerofall">
-              <p>&copy; {new Date().getFullYear()} All right reserved by low</p> 
-            </div>
-             </div>
+                <div className="alllinks">
+        <h2>Addisu Afrasa</h2>
+         <div className="links">
+            <FaLinkedin className="linkdinabout"/>
+            <MdEmail className="linkdinabout"/>
+            <SiOrcid className="linkdinabout"/>
+        </div>
+        <p> &copy; {new Date().getFullYear()} All right reserved by low. </p>
+       </div>
             
          </section>
     )

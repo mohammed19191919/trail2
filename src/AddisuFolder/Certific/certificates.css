@@ -1,101 +1,54 @@
+
+
 *{
     font-family: 'Times New Roman', Times, serif;
 }
+
 .allcertificate{
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 1px;
-    width: 85%;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    background:linear-gradient(45deg, white, gray, wheat);
-    height: inherit;
-    position: relative;
-}
-.subcertificate{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.certificate1 img{
-    width: 150px;
-    height: 220px;
-    padding: 5px;
-    background-color: white;
-}
-.certificate1 img:hover{
-    transform: scale(3); 
-    z-index: 1;
-    position: absolute;
-    top: 20%;
-    left: 30%;
+    justify-content: space-evenly;
     
 }
-.certificate2 img{
-    width:250px;
-    height: 220px;
-    display: flex;
-    padding: 5px;
-    background-color: white; 
+.certificate{
+   height: 350px;
+   width: 350px;
+   margin: 10px;
+   cursor: pointer;
 }
-.certificate2 img:hover{
-    transform: scale(2); 
+ .certificate img{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    transition: 0.5s all ease-in-out;
+}
+.certificate img:hover{
+    transform: scale(1.5);
     z-index: 1;
-    position: absolute;
-    top: 20%;
-    left: 20%;
+}
+
+.alllinks{
+    text-align: center;
+    height: 200px;
+    width: inherit;
+    margin-top: 10px;
     
 }
-.certificate2 img:not(:hover){
-    filter: blur(4px);
-   
+.alllinks h2{
+    padding-top: 20px;
 }
-.certificate1 img:not(:hover){
-    filter: blur(4px);
-   
+.link{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
-.certificate1 p{
-    font-size: 20px;
-    padding: 5px;
-    border: 1px solid green;
-    overflow: hidden;
-}
-.certificate2 p{
-    font-size: 20px;
-    padding: 1px;
-    border: 1px solid green;
-    overflow: hidden;
-}
-.certificate1{
-    width:250px;
-    height: 220px;
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-.certificate2{
-    width:250px;
-    height: 220px;
-    padding: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-}
-.links{
-    margin-top: 15px;
-}
-.tele-link{
-    width:100%;
-    height:auto;
-    background-color:white;
-    margin-left: 20%;
-}
-.linkidin1, .telegram1{
-    height:50px;
-    width:50px;
-    color: rgb(0, 119, 255);
-    padding-left:25px;
+.linkdinabout{
+    height: 50px;
+    width: 50px;
+    color: blue;
 }

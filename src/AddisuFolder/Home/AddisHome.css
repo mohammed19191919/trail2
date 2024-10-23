@@ -13,31 +13,54 @@ body{
 }
 .name-head{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     background-color: rgb(128, 128, 128);
     margin: 0 auto;
     position: sticky;
     top: 0px;
 }
+.homeproperty{
+    font-size: 20px;
+    color: black;
+    padding-top: 18px;
+    margin-right: -150px;
+    text-decoration: none;
+}
+.homeproperty:hover, .homeproperty:focus{
+    color: white;
+    transform: scale(1.5);
+    transition: 0.2s all ease-in-out;
+}
 .name-head .Unorderd-lists{
     display: flex;
     justify-content: space-around;
-    margin-left: -350px;
-    margin-right: 40px;
+}
+.property{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+    font-size: 18px;
+
+}
+.Unorderd-lists .property:hover, .Unorderd-lists .property:focus{
+    color: white;
+    transform: scale(1.5);
+    transition: 0.2s all ease-in-out;
 }
 .name-head .Unorderd-lists li{
     list-style: none;
 }
-.appabout{
+.name-head .Unorderd-lists li a{
     text-decoration: none;
     padding-right: 20px;
     color: black;
-    font-size: 19px;
 }
-.appabout:hover,
-.appabout:focus{
+.name-head .Unorderd-lists li a:first{
     color: white;
-    font-size: 1.5rem;
+}
+.name-head .Unorderd-lists li a:hover,
+.name-head .Unorderd-lists li a:hover{
+    color: white;
 }
 .start-about{
     display: flex;
@@ -101,6 +124,10 @@ body{
     color: blue;
     font-size: 16px;
 }
+.readmorlink{
+    text-decoration: none;
+    color: blue;
+}
 .readmore:hover,
 .readmore:focus{
     color:white;
@@ -108,30 +135,44 @@ body{
     transform: scale(1.2);
     transition: 0.2s ease-in;
 }
-.pppp{
-    text-align:center;
+
+.alllinks{
+    text-align: center;
+    height: 200px;
+    width: inherit;
+    margin-top: 10px;
+    
 }
-.apphome{
+.alllinks h2{
+    padding-top: 20px;
+}
+.link{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.linkdinabout{
+    height: 50px;
+    width: 50px;
+    color: blue;
+}
+.pheading{
+    text-align: center;
+}
+.pheading button{
+   border: none;
+   border-radius: 50px;
+   width: 70px;
+   height: 35px;
+   background-color: indianred;
+   color: black;
+   transition: 0.1s all ease-in-out;
+}
+.pheading button:hover, .pheading button:focus{
+    transform: scale(1.12);
+    color:wheat;
+    background-color: red;
+}
+.pheading button a{
     text-decoration: none;
-    padding-top: 16px;
-    font-size: 20px;
-    margin-right: 10px;
-    color: black;
-}
-.apphome:hover,
-.apphome:focus{
-    color: white;
-    font-size: 1.5rem;
-}
-.tele-link{
-    width:100%;
-    height:70%;
-    background-color:white;
-    margin-left: 20%;
-}
-.linkidin1, .telegram1{
-    height:50px;
-    width:50px;
-    color: rgb(0, 119, 255);
-    padding-left:25px;
 }

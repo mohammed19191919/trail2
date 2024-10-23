@@ -3,12 +3,12 @@
 
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
-import Header from './portifolio/Header';
-import Home from './portifolio/Home';
-import Experience from './portifolio/Experience';
-import Education from './portifolio/Education';
-import Publication from './portifolio/Publications';
-import Footer from './portifolio/Footer';
+// import Header from './portifolio/Header';
+// import Home from './portifolio/Home';
+// import Experience from './portifolio/Experience';
+// import Education from './portifolio/Education';
+// import Publication from './portifolio/Publications';
+// import Footer from './portifolio/Footer';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import AddisHome from "./AddisuFolder/Home/AddisHome"
@@ -16,8 +16,7 @@ import About from "./AddisuFolder/About/About"
 import Adapub from "./AddisuFolder/Adapublic/Adapub";
 import Certificatess from './AddisuFolder/Certific/Certificatess';
 import Adanav from './AddisuFolder/Home/Adanav';
-import Projects from './AddisuFolder/Projects/Projects';
-
+import Projects from './AddisuFolder/Projectes/Projects';
 
 function App() {
   

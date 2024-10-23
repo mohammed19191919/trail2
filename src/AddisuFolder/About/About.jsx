@@ -1,15 +1,17 @@
 import React from 'react';
 import "./about.css";
-import Imageme from "../../Component2/images/adahome.jpg";
+import {Link} from "react-router-dom";
+import Imageme from "../imagesada/adahome.jpg";
 import { FaDotCircle } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaTelegram } from "react-icons/fa";
-import { FaOrcid } from "react-icons/fa6";
-import { MdOutlineEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { SiOrcid } from "react-icons/si";
+import { FaGreaterThan } from "react-icons/fa";
 
 function About() {
   return (
     <section className='about-conntainer'>
+      <hr  className="horizontal-line"/> 
        <div className="aboutme-cont">
        <h1 className='aboutme'>About Me</h1>
        </div>
@@ -84,29 +86,26 @@ function About() {
                   </ul>
              </div>
              <div className="certificats">
-               <h2> <a href="#">Certificates</a> </h2>
+               <h2> <Link to ="/certificatess"> Certificates <FaGreaterThan className='FaGreaterThan'/> </Link> </h2>
                <ul>
-                <li>Certificates of completion of online education from University of Tartu</li>
-                <li>Certificates of completions of first degree in Pharmacy from University of Gondar</li>
-                <li>Certificate of participation from University of Gdansk</li>
-                <li>Certificate of appricaition from University of Gondar Schhol of Pharmacy for outstanding score</li>
-                <li>Certificate of acheivement from Bsics of clinical trail management</li>
-                <li> Certificates of LC-MS method Validation from university of Tartu </li>
+                <li>Certificates of completion of Estimations of Measurment Uncertainity in Chemical Analysis from university of Tartu</li>
+                <li>Certificate of completion of Bpharm degree from University of Gondar</li>
+                <li>Certificate of appricaition from University of Gondar, School of Pharmacy</li>
+                <li>Certificates of Participation</li>
+                <li>Certificates of completion in Basics of Clinical Trial Digital Course</li>
                </ul>
              </div>
             </div>
         </div>
-        <div className="links">
-        <div classname="tele-link">
-            <h2>Addisu Afrasa Tegegne</h2>
-             <a href="www.linkedin.com/in/addisu-afrassa" target="_blank" rel="noopener noreferrer"><FaLinkedin className="linkidin1"/> </a>
-              <a href="https://orcid.org/0000-0002-3855-7213" target="_blank" rel="noopener noreferrer"> < FaOrcid className="telegram1" /> </a>
-              <a href="mailto:addisuafrasa4648@gmail.com" target="_blank" rel="noopener noreferrer"> < MdOutlineEmail className="telegram1" /> </a>
-              </div>
-              <div className ="footerofall">
-              <p>&copy; {new Date().getFullYear()} All right reserved by low</p> 
-            </div>
-             </div>
+        <div className="alllinks">
+        <h2>Addisu Afrasa</h2>
+         <div className="links">
+            <a href="https://linkdin.com/in/addisu-afrassa " target="_blank" rel='noopener noreferre'> <FaLinkedin className="linkdinabout"/> </a>
+            <a href="mailto:addisuafrassa4648@gmail.com " target="_blank" rel='noopener noreferre'> <MdEmail className="linkdinabout"/> </a>
+            <a href="https://orcid.org/0000-0002-3855-7213 " target="_blank" rel='noopener noreferre'> <SiOrcid className="linkdinabout"/>  </a>
+        </div>
+        <p> &copy; {new Date().getFullYear()} All right reserved by low. </p>
+       </div>
     </section>
   )
 }
