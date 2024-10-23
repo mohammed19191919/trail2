@@ -1,3 +1,6 @@
+
+
+
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import Header from './portifolio/Header';
@@ -35,3 +38,26 @@ function App() {
 }
 
 export default App;
+
+
+
+// import React from 'react';
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createStackNavigator } from '@react-navigation/stack';
+// import MedicationForm from './Adherenceap/MedicationForm';
+// import MedicationList from './Adherenceap/MedicationList';
+
+// const Stack = createStackNavigator();
+
+// const App = () => {
+//   return (
+//     <NavigationContainer>
+//       <Stack.Navigator initialRouteName="MedicationForm">
+//         <Stack.Screen name="MedicationForm" component={MedicationForm} />
+//         <Stack.Screen name="MedicationList" component={MedicationList} />
+//       </Stack.Navigator>
+//     </NavigationContainer>
+//   );
+// };
+
+// export default App;
